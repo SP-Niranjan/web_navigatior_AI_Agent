@@ -42,7 +42,49 @@ HACHATHON FOR BYTEXL/
 
 Getting Started:
 (Befor getting started install Ollama and then Download the any model and then change the model name in the llm handler file)
+⚙️ Installing Ollama
+
+Ollama lets you run LLMs locally on your system.
+
+1️⃣ Install Ollama
+
+Download and install Ollama from the official site:
+👉 https://ollama.com/download
+
+Windows: Download the installer and follow setup steps.
+macOS: Install via .dmg or using Homebrew:
+brew install ollama
+
+Linux:
+curl -fsSL https://ollama.com/install.sh | sh
+2️⃣ Verify installation
+Run this command in your terminal:
+ollama --version
+3️⃣ Pull a model
+For example, to pull Llama 3.1:
+ollama pull llama3.1
+4️⃣ Run a quick test
+ollama run llama3.1
+5️⃣ Using Ollama in Python
+You can interact with Ollama models using the Python client:
+
+pip install ollama
+
+ollama pull (model_name)
+
+Example:
+import ollama
+response = ollama.chat(model="llama3.1", messages=[
+    {"role": "user", "content": "Hello, what can you do?"}
+])
+print(response['message']['content'])
+
+
 create the virtual environmet and then download the dependencies
+
+if not worked:
+change the environment variables and try in vscode or if can change the path in the vscode 
+
 1️. Clone the repository
 git clone https://github.com/SP-Niranjan/web_navigatior_AI_Agent
 
