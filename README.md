@@ -35,7 +35,6 @@ HACHATHON FOR BYTEXL/
 │
 │── main.py
 │── requirements_db.txt
-│── Runnable.py
 │── Runnable2.py
 │── __pycache__/
 
