@@ -41,6 +41,7 @@ HACHATHON FOR BYTEXL/
 
 
 Getting Started:
+(Befor getting started install Ollama and then Download the Llama3 model)
 1️. Clone the repository
 git clone https://github.com/SP-Niranjan/web_navigatior_AI_Agent
 
