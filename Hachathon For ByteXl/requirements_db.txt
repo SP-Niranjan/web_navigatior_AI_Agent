@@ -1,0 +1,12 @@
+chromadb>=0.4.15
+flask>=2.3.0
+flask-cors>=4.0.0
+streamlit>=1.28.0
+selenium>=4.15.0
+webdriver-manager>=4.0.0
+pandas>=2.0.0
+plotly>=5.17.0
+requests>=2.31.0
+python-dotenv>=1.0.0
+uuid>=1.30
+hashlib
