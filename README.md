@@ -42,14 +42,15 @@ HACHATHON FOR BYTEXL/
 
 Getting Started:
 1️. Clone the repository
-git clone https://github.com/your-username/WebNavigatorAgent.git
-cd WebNavigatorAgent
+git clone https://github.com/SP-Niranjan/web_navigatior_AI_Agent
+
+cd the folder ex: cd web_navigator_AI_Agent
 
 2️. Install dependencies:
 pip install -r requirements.txt
 
 3️. Run the project:
-python app.py
+python Runnable2.py
 
 Example Use Case:
 Search for "Show me Shoe within 500-10000"
