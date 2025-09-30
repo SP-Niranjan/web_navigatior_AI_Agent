@@ -61,16 +61,20 @@ Run this command in your terminal:
 ollama --version
 3️⃣ Pull a model
 For example, to pull Llama 3.1:
+```
 ollama pull llama3.1
+```
 4️⃣ Run a quick test
+```
 ollama run llama3.1
+```
 5️⃣ Using Ollama in Python
 You can interact with Ollama models using the Python client:
-
+```
 pip install ollama
 
 ollama pull (model_name)
-
+```
 Example:
 import ollama
 response = ollama.chat(model="llama3.1", messages=[
@@ -85,16 +89,19 @@ if not worked:
 change the environment variables and try in vscode or if can change the path in the vscode 
 
 1️. Clone the repository
+```
 git clone https://github.com/SP-Niranjan/web_navigatior_AI_Agent
 
 cd the folder ex: cd web_navigator_AI_Agent
-
+```
 2️. Install dependencies:
+```
 pip install -r requirements.txt
-
+```
 3️. Run the project:
+```
 python Runnable2.py
-
+```
 Example Use Case:
 Search for "Show me Shoe within 500-10000"
 
