@@ -15,6 +15,7 @@ Ollama (for the web automation search and analyse the informations)
 Custom Agent Core (coordinates LLM + browser + memory)
 
 Project Structure:
+```
 HACHATHON FOR BYTEXL/
 │── agent/
 │   ├── Advacanced_Agent.py
@@ -38,7 +39,7 @@ HACHATHON FOR BYTEXL/
 │── Runnable2.py
 │── __pycache__/
 
-
+```
 Getting Started:
 (Befor getting started install Ollama and then Download the any model and then change the model name in the llm handler file)
 ⚙️ Installing Ollama
